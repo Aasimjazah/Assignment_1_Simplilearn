@@ -15,7 +15,7 @@ public class Bank {
 		sa[0] = new SavingsAccount(1);
 		//acc[2] = new SavingsAccount(500);
 		sa[0].deposit(300);
-		System.out.println("Balance in  saving account"+sa[0].getBalance());
+		System.out.println("Balance in  saving account changed in dev branch"+sa[0].getBalance());
 		update(sa[0], 400);
 		
 		System.out.println("Interest in saving account "+sa[0].getInterest());
